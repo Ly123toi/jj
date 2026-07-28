@@ -21,7 +21,7 @@ export const portfolioCategories: PortfolioCategory[] = [
           IT: 'Testi per il Marketing e il Brand',
           VN: 'Nội dung tiếp thị & thương hiệu',
         },
-        image: '/regenerated_image_1785220362657.jpg',
+        image: 'public/copywriter-freelance.jpg',
         bullets: [
           { ENG: 'Bourbono', IT: 'Bourbono', VN: 'Bourbono' },
           { ENG: 'Customvouge', IT: 'Customvouge', VN: 'Customvouge' },
