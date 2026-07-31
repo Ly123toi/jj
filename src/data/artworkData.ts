@@ -5,7 +5,7 @@ export const artworkList: ArtworkItem[] = [
     id: 'art-1',
     title: { ENG: 'Origami Beetle Craft', IT: 'Origami Coleottero', VN: 'Bọ cánh cứng Origami' },
     category: 'Origami',
-    image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80',
+    image: '/origami bug.jpg',
   },
   {
     id: 'art-2',
