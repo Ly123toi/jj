@@ -9,7 +9,7 @@ export const artworkList: ArtworkItem[] = [
   },
   {
     id: 'art-2',
-    title: { ENG: 'Golden Origami Dragon', IT: 'Drago d’Oro Origami', VN: 'Rồng vàng Origami' },
+    title: { ENG: 'Origami Minotaur', IT: 'Minotauro Origami', VN: 'Nhân Ngưu Origami' },
     category: 'Origami',
     image: '/taurus.jpg',
   },
