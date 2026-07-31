@@ -23,10 +23,10 @@ export const Hero: React.FC<HeroProps> = ({
         <img
           src="/background image.png"
           alt="Khanh Ly Vu background"
-          className="w-full h-full object-cover object-top opacity-70 filter contrast-105 saturate-90"
+          className="w-full h-full object-cover object-top opacity-100"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#141211] via-[#141211]/80 to-transparent"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-[#141211] via-transparent to-[#141211]/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#141211]/80 via-[#141211]/50 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-[#141211]/60 via-transparent to-transparent"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
