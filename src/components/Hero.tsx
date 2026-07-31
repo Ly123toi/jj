@@ -25,7 +25,7 @@ export const Hero: React.FC<HeroProps> = ({
           alt="Khanh Ly Vu background"
           className="w-full h-full object-cover object-top opacity-100"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#141211]/80 via-[#141211]/50 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/45 via-black/15 to-transparent" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
