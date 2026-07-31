@@ -165,7 +165,7 @@ export const DetailModal: React.FC<DetailModalProps> = ({
           )}
         </div>
 
-        {/* Modal Footer */}
+{/* Modal Footer */}
 <div className="px-6 py-4 bg-[#F5EFE6] border-t border-[#E0D7CB] flex justify-end shrink-0">
   <a
     href="https://drive.google.com/drive/folders/16N8MBFUJQpxqsiSC_SEUrZh-qswO42Wb"
@@ -177,8 +177,8 @@ export const DetailModal: React.FC<DetailModalProps> = ({
     <ArrowUpRight className="w-4 h-4" />
   </a>
 </div>
-        </div>
       </div>
     </div>
-  );
+  </div>
+);
 };
