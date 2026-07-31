@@ -13,7 +13,7 @@ export const projectItems: ProjectItem[] = [
       IT: 'Design di concetto di un braccialetto multifunzionale innovativo.',
       VN: 'Thiết kế ý tưởng sản phẩm vòng tay đa chức năng sáng tạo.',
     },
-    image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80',
+    image: '/Screenshot 2026-06-29 184247.png',
   },
   {
     id: 'hanoi-2',
