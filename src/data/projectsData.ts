@@ -151,7 +151,7 @@ export const projectItems: ProjectItem[] = [
       IT: 'Mappa dell’architettura dell’informazione per e-commerce.',
       VN: 'Sơ đồ kiến trúc thông tin cho nền tảng bán hàng trực tuyến.',
     },
-    image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80',
+    image: '/SEO26 PJ Ngube.jpg',
   },
   {
     id: 'padova-4',
@@ -164,6 +164,6 @@ export const projectItems: ProjectItem[] = [
       IT: 'Presentazione dello studio di analisi computazionale del discorso.',
       VN: 'Bài báo cáo nghiên cứu phân tích cảm xúc và diễn ngôn máy tính.',
     },
-    image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80',
+    image: '/Charlie kirk.png',
   },
 ];
