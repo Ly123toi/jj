@@ -66,7 +66,7 @@ export const AboutDetailedView: React.FC<AboutDetailedViewProps> = ({
               <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden border-2 border-[#DCD2C4] shadow-md bg-[#EFE8DC] group-hover:scale-105 transition-transform duration-300 flex items-center justify-center p-1">
                 <img
                   src={[
-                    'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=300&q=80',
+                    '/ada951c1-524b-4d98-b749-7529a713482d.jpg',
                     'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=300&q=80',
                     'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=300&q=80',
                     'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=300&q=80',
@@ -173,7 +173,7 @@ export const AboutDetailedView: React.FC<AboutDetailedViewProps> = ({
             <div key={idx} className="flex flex-col items-center text-center space-y-4 bg-[#F5EFE6] p-6 rounded-2xl border border-[#E5DACD]">
               {/* Dark Circular Badge */}
               <div className="w-24 h-24 rounded-full bg-[#1A1817] text-white flex items-center justify-center p-3 shadow-md border-2 border-[#8C7355]">
-                <span className="text-xs font-bold leading-tight uppercase tracking-wider">
+                <span className="text-[10px] font-bold leading-tight uppercase tracking-wider">
                   {cat.title[currentLang]}
                 </span>
               </div>
