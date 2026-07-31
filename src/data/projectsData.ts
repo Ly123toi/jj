@@ -138,7 +138,7 @@ export const projectItems: ProjectItem[] = [
       IT: 'Studio di comunicazione non verbale focalizzato sui gesti italiani.',
       VN: 'Nghiên cứu giao tiếp phi ngôn ngữ phân tích các ngôn ngữ cơ thể và cử chỉ.',
     },
-    image: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80',
+    image: '/Screenshot 2026-07-03 071102.png',
   },
   {
     id: 'padova-3',
