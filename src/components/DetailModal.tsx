@@ -179,6 +179,5 @@ export const DetailModal: React.FC<DetailModalProps> = ({
 </div>
       </div>
     </div>
-  </div>
 );
 };
