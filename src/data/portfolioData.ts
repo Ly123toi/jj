@@ -409,7 +409,7 @@ export const portfolioCategories: PortfolioCategory[] = [
           IT: 'Progettazione e Ottimizzazione dei Prompt per l’IA',
           VN: 'Thiết kế & Tối ưu hóa Prompt AI',
         },
-        image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80',
+        image: '/Prompt-engineering-courses-GettyImages-1498577422-e1709762465348.webp',
         bullets: [
           { ENG: 'Prompt Strategy Development', IT: 'Sviluppo della strategia dei prompt', VN: 'Phát triển chiến lược viết câu lệnh' },
           { ENG: 'AI Response Optimization', IT: 'Ottimizzazione delle risposte dell’IA', VN: 'Tối ưu hóa câu phản hồi của AI' },
