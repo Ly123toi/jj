@@ -125,7 +125,7 @@ export const projectItems: ProjectItem[] = [
       IT: 'Analisi critica del discorso sugli standard di bellezza e la chirurgia estetica.',
       VN: 'Phân tích diễn ngôn phê phán về chuẩn mực vẻ đẹp và phẫu thuật thẩm mỹ.',
     },
-    image: 'https://images.unsplash.com/photo-1512290900673-700232230324?auto=format&fit=crop&w=800&q=80',
+    image: '/cosmetic surgery.png',
   },
   {
     id: 'padova-2',
