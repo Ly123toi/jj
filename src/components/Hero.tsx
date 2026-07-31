@@ -26,7 +26,6 @@ export const Hero: React.FC<HeroProps> = ({
           className="w-full h-full object-cover object-top opacity-100"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#141211]/80 via-[#141211]/50 to-transparent"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-[#141211]/60 via-transparent to-transparent"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
