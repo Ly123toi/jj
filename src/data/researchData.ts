@@ -14,7 +14,7 @@ export const researchItems: ResearchItem[] = [
       IT: 'Autorappresentazione degli utenti in sedia a rotelle su Facebook nel Nord Globale',
       VN: 'Tự thể hiện của người sử dụng xe lăn trên Facebook tại các quốc gia Bắc bán cầu',
     },
-    image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80',
+    image: '/GettyImages_670157276.webp',
     bullets: [
       {
         ENG: 'Stuart Hall’s Representation Theory',
