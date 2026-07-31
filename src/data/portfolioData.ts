@@ -259,7 +259,7 @@ export const portfolioCategories: PortfolioCategory[] = [
           IT: 'Architettura dell’Informazione e Flussi Utente',
           VN: 'Kiến trúc thông tin & Luồng người dùng',
         },
-        image: '/store.jpg',
+        image: '/644775b6ced7884b0843aa5e_Blog-HeroImage-Sitemap-for-SEO-1600x901.jpg',
         bullets: [
           { ENG: 'Website Information Architecture', IT: 'Architettura delle informazioni del sito web', VN: 'Kiến trúc thông tin của trang web' },
           { ENG: 'User Navigation Flow', IT: 'Flusso di navigazione dell’utente', VN: 'Luồng điều hướng của người dùng' },
@@ -604,7 +604,7 @@ export const portfolioCategories: PortfolioCategory[] = [
           IT: 'Gestione dell’Inventario, degli Ordini e delle Operazioni',
           VN: 'Quản lý tồn kho, đơn hàng và hoạt động chăm sóc khách hàng',
         },
-        image: 'https://images.unsplash.com/photo-1556742049-0a67daf64f42?auto=format&fit=crop&w=800&q=80',
+        image: '/store.jpg',
         bullets: [
           { ENG: 'Store Operations', IT: 'Gestione operativa del negozio', VN: 'Quản lý vận hành cửa hàng' },
           { ENG: 'Product Catalog Management', IT: 'Gestione del catalogo prodotti', VN: 'Quản lý danh mục sản phẩm' },
