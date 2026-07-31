@@ -167,12 +167,16 @@ export const DetailModal: React.FC<DetailModalProps> = ({
 
         {/* Modal Footer */}
         <div className="px-6 py-4 bg-[#F5EFE6] border-t border-[#E0D7CB] flex justify-end shrink-0">
-          <button
-            onClick={onClose}
-            className="px-6 py-2 rounded-xl bg-[#EAE0D2] hover:bg-[#DFD3C1] text-[#2C2A29] font-bold text-xs uppercase tracking-wider border border-[#D5C7B3] transition-all"
-          >
-            Close Window
-          </button>
+  <a
+    href="https://drive.google.com/drive/folders/16N8MBFUJQpxqsiSC_SEUrZh-qswO42Wb"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-2 rounded-xl bg-[#EAE0D2] hover:bg-[#DFD3C1] text-[#2C2A29] font-bold text-xs uppercase tracking-wider border border-[#D5C7B3] transition-all inline-flex items-center gap-2"
+  >
+    View Portfolio Files
+    <ArrowUpRight className="w-4 h-4" />
+  </a>
+</div>
         </div>
       </div>
     </div>
