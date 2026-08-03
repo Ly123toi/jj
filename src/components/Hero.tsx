@@ -1,8 +1,32 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { Language } from '../types';
 import { translations } from '../data/translations';
 import { Linkedin, Instagram, Mail, ArrowRight } from 'lucide-react';
+const containerVariants = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.18,
+      delayChildren: 0.2,
+    },
+  },
+};
 
+const fadeUpVariants = {
+  hidden: {
+    opacity: 0,
+    y: 30,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.8,
+      ease: [0.22, 1, 0.36, 1],
+    },
+  },
+};
 interface HeroProps {
   currentLang: Language;
   onExploreClick: () => void;
@@ -28,12 +52,17 @@ export const Hero: React.FC<HeroProps> = ({
         <div className="absolute inset-0 bg-gradient-to-r from-black/45 via-black/15 to-transparent" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <motion.div
+  className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full"
+  variants={containerVariants}
+  initial="hidden"
+  animate="show"
+>
         <div className="max-w-2xl space-y-6">
           {/* Subtitle Badge */}
           <div className="inline-flex items-center px-3.5 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-xs font-semibold tracking-widest text-[#E6D7C3] uppercase">
             {t.badge[currentLang]}
-          </div>
+          </motion.div>
 
           {/* Main Name Heading */}
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-serif-title font-bold tracking-tight text-white leading-none">
