@@ -40,7 +40,7 @@ const containerClasses = isModal
     </button>
   </div>
 )}
-
+<div className="flex-1 overflow-y-auto px-6 sm:px-10 py-8">
       {/* Main Header */}
       <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
         <h2 className="text-4xl sm:text-5xl font-serif-title font-bold text-[#1A1A1A]">
@@ -252,7 +252,7 @@ const containerClasses = isModal
           ))}
         </div>
       </div>
-
+</div>
       {/* Artwork Lightbox Modal */}
       {selectedArtwork && (
         <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-4">
