@@ -35,26 +35,19 @@ const containerClasses = isModal
   onClick={onClose}
   aria-label="Close"
   className="
-    group
     flex
     items-center
     justify-center
     w-12
     h-12
     rounded-full
-    bg-[#F3EBDD]
-    text-[#4A4542]
     transition-all
     duration-300
-    ease-out
-    hover:bg-[#E9DDCA]
-    hover:scale-105
-    active:scale-95
-    shadow-sm
-    hover:shadow-md
+    hover:bg-[#F3EBDD]
+    hover:shadow-sm
   "
 >
-  <X className="w-7 h-7 transition-transform duration-300 group-hover:rotate-90" />
+  <X className="w-8 h-8 text-[#4A4542]" />
 </button>
   </div>
 )}
