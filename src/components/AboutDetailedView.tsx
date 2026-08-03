@@ -18,27 +18,28 @@ export const AboutDetailedView: React.FC<AboutDetailedViewProps> = ({
   const t = translations.aboutDetailed;
   const [selectedArtwork, setSelectedArtwork] = useState<ArtworkItem | null>(null);
 
-  const containerClasses = isModal
-    ? 'bg-[#FAF8F5] p-6 sm:p-10 rounded-2xl max-w-6xl mx-auto shadow-2xl overflow-y-auto max-h-[90vh]'
-    : 'py-20 bg-[#FAF8F5] border-b border-[#EAE3D9]';
+const containerClasses = isModal
+  ? 'bg-[#FAF8F5] rounded-2xl max-w-6xl mx-auto shadow-2xl max-h-[90vh] flex flex-col overflow-hidden'
+  : 'py-20 bg-[#FAF8F5] border-b border-[#EAE3D9]';
 
   return (
     <div className={containerClasses}>
       {/* Modal Close button if inside modal */}
-      {isModal && onClose && (
-        <div className="flex justify-between items-center mb-6 pb-4 border-b border-[#EAE3D9]">
-          <span className="text-xs font-bold tracking-widest text-[#8C7355] uppercase">
-            {t.subtitle[currentLang]}
-          </span>
-          <button
-            onClick={onClose}
-            className="p-2 rounded-full hover:bg-[#EFE8DC] text-[#4A4542] transition-colors"
-            aria-label="Close"
-          >
-            <X className="w-5 h-5" />
-          </button>
-        </div>
-      )}
+{isModal && onClose && (
+  <div className="sticky top-0 z-50 bg-[#FAF8F5] border-b border-[#EAE3D9] px-8 py-6 flex items-center justify-between shrink-0">
+    <span className="text-xs font-bold tracking-[0.2em] text-[#8C7355] uppercase">
+      {t.subtitle[currentLang]}
+    </span>
+
+    <button
+      onClick={onClose}
+      className="text-[#4A4542] hover:text-black transition-colors"
+      aria-label="Close"
+    >
+      <X className="w-8 h-8" />
+    </button>
+  </div>
+)}
 
       {/* Main Header */}
       <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
